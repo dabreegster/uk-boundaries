@@ -8,7 +8,8 @@ Fork the repo, start a new branch, update the README following the examples belo
 
 ## 2021 Output Areas
 
-Download: TODO
+Download: <https://github.com/dabreegster/uk-boundaries/raw/main/2021_output_areas.geojson.gz>
+  - Note GitHub raw URLs use HTTP 302 to redirect. Use `curl -L <URL>` to follow.
 
 - Format: GeoJSON file in WGS84, trimmed to 6 decimal places of precision, with only an `OA21CD` property
   - 23MB gzipped, 121MB uncompressed
