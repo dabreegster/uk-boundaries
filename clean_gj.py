@@ -15,6 +15,11 @@ def main():
             }
 
         cleanUpGeojson(sys.argv[1], sys.argv[2], fixProps)
+    else:
+        print(
+            f"Unknown output file {sys.argv[2]}. Manually edit the script to decide what properties to keep."
+        )
+        sys.exit(1)
 
 
 # This method cleans up a GeoJSON file in a few ways:
